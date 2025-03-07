@@ -63,3 +63,8 @@ p{
     color: #5e5c5d;
     font-size: 1rem;
 }
+footer {
+    margin: 2rem;
+    text-align: center;
+    color: rgb(53, 0, 102);
+}
