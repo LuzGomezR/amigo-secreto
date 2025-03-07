@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Amigo Secreto</title>
 </head>
+
 <body>
-    
+    <div id="contenedor-encabezado">
+        <h1>Amigo Secreto</h1>
+        <img src="img/secret.png" alt="">
+    </div>
+    <div id="contenedor-cuerpo">
+        <h2>Digite el nombre de sus amigos</h2>
+        <input type="text" placeholder="Escribe un nombre" id="nombreDigitado">
+        <button id="anadir" onclick="agregar();">Añadir</button>
+        <p id="contenido-mostrar"></p>
+        <button class="botonesJugar" id="sortear" onclick="sortear();">Sortear Amigo</button>
+        <button class="botonesJugar" id="nuevoJuego" onclick="nuevoJuego();" disabled>Nuevo Juego</button>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
