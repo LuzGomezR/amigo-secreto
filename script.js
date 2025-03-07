@@ -44,7 +44,10 @@ function nuevoJuego() {
     listaNombres = [];
     asignarTextoElemento('p', '');
     document.querySelector('#nuevoJuego').setAttribute('disabled', 'true');
+    document.querySelector('p').style.color = "#5e5c5d";
+    document.querySelector('p').style.fontSize = "1rem";
     return;
+    
 }
 
 
